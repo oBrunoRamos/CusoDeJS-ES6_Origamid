@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+
+    background-color: rgb(58, 60, 60);
+
+    width: 90vw;
+    height: 90vh;
+
+    border-radius: 10px;
+
+    margin: 1rem;
+    padding: .5rem;
+
+}
+.botoes{
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background: pink;
+    
+
+    width: 30vw;
+    height: 100%;
+}
+.botoes button{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+.visor{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 181, 181);
+
+    border-radius: 10px;
+    
+    height: 100%;
+    width: 70vw;
+
+
+}
